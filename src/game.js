@@ -39,7 +39,7 @@ export default class Game {
       if (col[0][c] === null) { continue }
       win = win || (col[0][c] === col[1][c] && col[0][c] === col[2][c])
     }
-
+   //test
     return win
   }
 
